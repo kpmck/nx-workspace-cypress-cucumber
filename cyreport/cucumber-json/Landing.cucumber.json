@@ -1,0 +1,42 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Landing page",
+    "line": 1,
+    "id": "landing-page",
+    "tags": [],
+    "uri": "Landing.feature",
+    "elements": [
+      {
+        "id": "landing-page;the-application-displays-the-welcome-message.",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "The application displays the welcome message.",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the user is logged in",
+            "result": {
+              "status": "passed",
+              "duration": 9333000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "the \"Welcome to nx-test!\" message is displayed",
+            "result": {
+              "status": "passed",
+              "duration": 19000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
